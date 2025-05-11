@@ -35,6 +35,7 @@ Enable the PHP module for Apache:
 a2enmod php8.3
 
 Install Composer (Dependency Manager for PHP):
+
 cd ~
 curl -sS https://getcomposer.org/installer -o composer-setup.php
 php composer-setup.php --install-dir=/usr/local/bin --filename=composer
