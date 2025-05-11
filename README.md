@@ -37,9 +37,13 @@ a2enmod php8.3
 Install Composer (Dependency Manager for PHP):
 
 cd ~
+
 curl -sS https://getcomposer.org/installer -o composer-setup.php
+
 php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+
 rm composer-setup.php
+
 
 Step 2: Get the Application Code
 Clone or Download the Project. Let's assume you clone it into /var/www/html/.
