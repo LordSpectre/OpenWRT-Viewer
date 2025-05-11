@@ -82,7 +82,7 @@ Step 6: Ubuntu Server Firewall (if active)
 If ufw (Uncomplicated Firewall) is active on your Ubuntu server, allow HTTP traffic (and HTTPS if you configure it):
 
 ufw allow 80/tcp  # For HTTP
-# ufw allow 443/tcp # For HTTPS (if you implement it)
+ufw allow 443/tcp # For HTTPS (if you implement it)
 ufw enable        # If not already active
 ufw status
 
